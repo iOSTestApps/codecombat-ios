@@ -91,6 +91,8 @@
 		28DE0CFF199AE1D600C6699D /* javascriptSyntax.json in Resources */ = {isa = PBXBuildFile; fileRef = 28DE0CFE199AE1D600C6699D /* javascriptSyntax.json */; };
 		28DFD0B619FBFBA400C302F0 /* EditorInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD0B519FBFBA400C302F0 /* EditorInputAccessoryView.swift */; };
 		28F3125519CDD1B50089C83D /* LanguageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3125419CDD1B50089C83D /* LanguageSelectionViewController.swift */; };
+		3818F21FED9E4469077962CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBA724C6B1F17AB532F0C29 /* CoreTelephony.framework */; };
+		5B7874F8EFA9C52E6C0AF1F7 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EA2C4421D5DB804A9DC7C7 /* BuddyBuildSDK.framework */; };
 		C824BEF719FC11F50097AE14 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C824BEF619FC11F50097AE14 /* AssetsLibrary.framework */; };
 		C824BEF919FC11FD0097AE14 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C824BEF819FC11FD0097AE14 /* MobileCoreServices.framework */; };
 		C824BEFB19FC12030097AE14 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C824BEFA19FC12030097AE14 /* QuickLook.framework */; };
@@ -109,6 +111,7 @@
 		C827D1D91994937C00B5724C /* TomeInventoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C827D1D81994937C00B5724C /* TomeInventoryItemView.swift */; };
 		C827D1DB19949E0200B5724C /* TomeInventoryItemPropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C827D1DA19949E0200B5724C /* TomeInventoryItemPropertyView.swift */; };
 		C87236FD19FABD760077BD3B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87236FC19FABD760077BD3B /* GameViewController.swift */; };
+		F2E7F9B711CABE29F29BF1CA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B831AD9DC4EAA31BAF2990 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +244,9 @@
 		28DE0CFE199AE1D600C6699D /* javascriptSyntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = javascriptSyntax.json; sourceTree = "<group>"; };
 		28DFD0B519FBFBA400C302F0 /* EditorInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorInputAccessoryView.swift; sourceTree = "<group>"; };
 		28F3125419CDD1B50089C83D /* LanguageSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectionViewController.swift; sourceTree = "<group>"; };
+		4DBA724C6B1F17AB532F0C29 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		54B831AD9DC4EAA31BAF2990 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B6EA2C4421D5DB804A9DC7C7 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		C824BEF619FC11F50097AE14 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		C824BEF819FC11FD0097AE14 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C824BEFA19FC12030097AE14 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
@@ -274,6 +280,9 @@
 				C824BEFB19FC12030097AE14 /* QuickLook.framework in Frameworks */,
 				C824BEF919FC11FD0097AE14 /* MobileCoreServices.framework in Frameworks */,
 				C824BEF719FC11F50097AE14 /* AssetsLibrary.framework in Frameworks */,
+				5B7874F8EFA9C52E6C0AF1F7 /* BuddyBuildSDK.framework in Frameworks */,
+				F2E7F9B711CABE29F29BF1CA /* CoreText.framework in Frameworks */,
+				3818F21FED9E4469077962CC /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +592,9 @@
 				C824BEF819FC11FD0097AE14 /* MobileCoreServices.framework */,
 				C824BEF619FC11F50097AE14 /* AssetsLibrary.framework */,
 				287E931919C8CDB100E68F03 /* UIKit.framework */,
+				B6EA2C4421D5DB804A9DC7C7 /* BuddyBuildSDK.framework */,
+				54B831AD9DC4EAA31BAF2990 /* CoreText.framework */,
+				4DBA724C6B1F17AB532F0C29 /* CoreTelephony.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1012,6 +1024,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CodeCombat",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1040,6 +1053,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CodeCombat",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
